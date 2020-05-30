@@ -1,0 +1,13 @@
+package com.adminportal.domain;
+
+@Entity
+public class Book {
+	private Long id;
+	private String title;
+	private String author;
+	private String publisher;
+	private String publicationDate;
+	private String language;
+	private String category;
+	private int 
+}

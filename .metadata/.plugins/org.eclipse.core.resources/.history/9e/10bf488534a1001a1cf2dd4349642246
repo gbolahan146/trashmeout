@@ -1,0 +1,9 @@
+package com.bookstore.domain;
+
+@Entity
+public class UserPayment {
+	
+	@Id
+	@Genera
+
+}

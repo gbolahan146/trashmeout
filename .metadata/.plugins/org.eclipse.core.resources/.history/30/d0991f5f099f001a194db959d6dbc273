@@ -1,0 +1,6 @@
+package com.bookstore.service.impl;
+
+@Service
+public class UserSecurityService {
+
+}

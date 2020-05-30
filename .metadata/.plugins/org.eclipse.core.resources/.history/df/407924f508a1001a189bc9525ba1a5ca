@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="common/header :: common-header" />
+
+<body>
+
+	<div th:replace="common/header :: navbar" />
+	
+	<div class="container">
+	<div>
+	<ol class="breadcrumb"><i class="fa fa long-arrow-left" ></ol>
+	</div>
+	</div>
+
+
+		<div th:replace="common/header :: body-bottom-scripts" />
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+package com.bookstore.domain.security;
+
+@Entity
+public class Role {
+	
+}

@@ -1,0 +1,4 @@
+function checkPasswordMatch(){
+	var password = $("#textConfirmPassword").val();
+	var confirmPassword = $("#text")
+}

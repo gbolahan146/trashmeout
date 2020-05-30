@@ -1,0 +1,12 @@
+package com.bookstore.service.impl;
+
+@Service
+public class UserShippingServiceImpl implements UserShippingService{
+	@Autowired
+	private UserShippingRepository userShippingRepository;
+	
+	public UserShipping findById(Long id) {
+		return userShippingRepository.find
+	}
+
+}

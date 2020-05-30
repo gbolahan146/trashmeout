@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="508"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="439"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+			<item value="@+ &apos;securityConfig&apos; (@EnableGlobalMethodSecurity &lt;: @EnableGlobalAuthentication, @Configuration, @Component) SecurityConfig@file:///Users/admin/eclipse-workspace2/bookstore/src/main/java/com/bookstore/config/SecurityConfig.java[18,0:18,48],-1956083850"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.lsp4e/org.eclipse.lsp4e.operations.symbols.WorkspaceSymbolsQuickAccessProvider"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+		</list>
+		<list key="textArray">
+			<item value="global"/>
+		</list>
+	</section>
+</section>

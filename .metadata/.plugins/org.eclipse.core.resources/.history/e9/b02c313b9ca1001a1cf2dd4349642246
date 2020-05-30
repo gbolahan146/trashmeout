@@ -1,0 +1,10 @@
+package com.bookstore.domain;
+
+
+@Entity
+public class ShoppingCart {
+	
+	@Id
+	@GeneratedValue(strategy = Generation)
+
+}

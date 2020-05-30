@@ -1,0 +1,11 @@
+package com.bookstore.service.impl;
+
+public class BookServiceImpl implements BookService {
+	@Autowired
+	private BookRepository bookRepository;
+	
+	public List<Book> findAll() {
+		
+	}
+
+}

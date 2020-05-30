@@ -1,0 +1,9 @@
+package com.bookstore.service.impl;
+
+public interface UserService {
+
+	
+	PasswordResetToken getPasswordResetToken(final String token);
+	
+	void
+}

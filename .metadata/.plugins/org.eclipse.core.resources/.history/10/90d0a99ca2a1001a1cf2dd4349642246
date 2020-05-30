@@ -1,0 +1,45 @@
+package com.bookstore.domain;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class BillingAddress {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	private String BillingAddressName;
+	private String BillingAddressStreet1;
+	private String BillingAddressStreet2;
+	private String BillingAddressCity;
+	private String BillingAddressState;
+	private String BillingAddressCountry;
+	private String BillingAddressZipcode;
+	
+	@OneToOne
+	private Order order;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+
+	public UserPayment getUserPayment() {
+		return userPayment;
+	}
+
+	public void setUserPayment(UserPayment userPayment) {
+		this.userPayment = userPayment;
+	}
+	
+	
+	
+}

@@ -1,0 +1,11 @@
+package com.bookstore.domain;
+
+
+@Entity
+public class ShoppingCart {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id
+
+}

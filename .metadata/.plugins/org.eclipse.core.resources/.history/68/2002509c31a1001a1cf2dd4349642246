@@ -1,0 +1,7 @@
+package com.bookstore.utility;
+
+public class USConstants {
+	public final static String US = "US";
+	
+
+}

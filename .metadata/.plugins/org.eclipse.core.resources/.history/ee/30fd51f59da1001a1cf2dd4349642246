@@ -1,0 +1,9 @@
+package com.bookstore.domain;
+
+
+@Entity
+@Table(name="user_order")
+public class Order {
+	
+
+}

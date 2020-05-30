@@ -1,0 +1,23 @@
+package com.bookstore.domain;
+
+
+@Entity
+@Table(name="user_order")
+public class Order {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	private Date orderDate;
+	private Date shippingDate;
+	private String shippingMethod;
+	private String orderStatus;
+	private BigDecimal orderTotal;
+	
+	
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
+	private <CartItem> cartItemList;
+	
+	@OneToMany(cascade = CascadeType.ALL)
+	private S cartItemList;
+
+}

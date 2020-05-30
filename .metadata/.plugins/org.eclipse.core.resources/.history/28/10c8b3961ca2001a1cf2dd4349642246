@@ -1,0 +1,21 @@
+function checkPasswordMatch(){
+	var password = $("#textConfirmPassword").val();
+	var confirmPassword = $("#textConfirmPassword").val();
+	
+	if(password == "" && confirmPassword == "") {
+		$("#checkPasswordMath").html("");
+		$("#updateUserInfoButton").prop('disabled', false);
+	} else {
+		if(password != confirmPassword) {
+			$("#checkPasswordMath").html("Passwords do not match! ");
+			$("#updateUserInfoButton").prop('disabled', true);
+		} else {
+			$("#checkPasswordMath").html("Passwords match");
+			$("#updateUserInfoButton").prop('disabled', false);
+		}
+	}
+}
+
+$(document).ready(function(){
+	$("#txtConfirm")
+});

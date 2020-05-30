@@ -1,0 +1,7 @@
+package com.bookstore.domain;
+
+@Entity
+public class UserBilling {
+	
+
+}

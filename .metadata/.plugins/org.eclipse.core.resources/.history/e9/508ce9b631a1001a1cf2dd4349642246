@@ -1,0 +1,8 @@
+package com.bookstore.utility;
+
+public class USConstants {
+	public final static String US = "US";
+	
+	public final static Map<String, String> mapOfUSStates = new HashMap<String>
+
+}

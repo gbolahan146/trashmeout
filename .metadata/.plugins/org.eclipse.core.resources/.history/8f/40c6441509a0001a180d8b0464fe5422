@@ -1,0 +1,28 @@
+package com.bookstore.utility;
+
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
+import org.springframework.messaging.Message;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MailConstructor {
+	
+	@Autowired
+	private Environment env;
+	
+	Message msg = new MimeMessage(session);
+	msg.setFrom(new InternetAddress(userName));
+	InternetAddress[] toAddresses = { new InternetAddress(toAddress) };
+	msg.setRecipients(Message.RecipientType.TO, toAddresses);
+	msg.setSubject(subject);
+	msg.setSentDate(new Date());
+	msg.setText(message);
+	
+	
+	
+
+}

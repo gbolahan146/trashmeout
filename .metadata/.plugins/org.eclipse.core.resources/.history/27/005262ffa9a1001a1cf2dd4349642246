@@ -1,0 +1,12 @@
+package com.bookstore.controller;
+
+@Controller
+@RequestMapping("/shoppingCart")
+public class ShoppingCartController {
+	@Autowired
+	private UserService userService;
+	
+	@RequestMapping
+
+	
+}

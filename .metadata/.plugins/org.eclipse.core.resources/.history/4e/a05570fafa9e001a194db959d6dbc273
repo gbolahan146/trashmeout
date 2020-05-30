@@ -1,0 +1,14 @@
+package com.bookstore.domain.security;
+
+import javax.persistence.GeneratedValue;
+
+@Entity
+@Table(name="user_role")
+public class UserRole {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long userRoleId;
+	
+	public UserRole(User user, Role )
+}

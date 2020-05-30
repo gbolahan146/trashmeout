@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "support.email",
+    "type": "java.lang.String",
+    "description": "A description for 'support.email'"
+  },
+  {
+    "name": "adminPath",
+    "type": "java.lang.String",
+    "description": "A description for 'adminPath'"
+  },
+  {
+    "name": "adminPath",
+    "type": "java.lang.String",
+    "description": "A description for 'adminPath'"
+  },
+  {
+    "name": "adminPath",
+    "type": "java.lang.String",
+    "description": "A description for 'adminPath'"
+  }
+]}

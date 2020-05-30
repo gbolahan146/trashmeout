@@ -1,0 +1,11 @@
+package com.bookstore.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Service
+public class UserSecurityService implements UserDetailsService{
+
+	
+	@Autowired
+	private UserRepository user
+}

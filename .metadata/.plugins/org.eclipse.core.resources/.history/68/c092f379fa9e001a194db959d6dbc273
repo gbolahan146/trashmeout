@@ -1,0 +1,21 @@
+package com.bookstore.domain.security;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import org.hibernate.engine.FetchTiming;
+
+@Entity
+public class Role {
+	
+	@Id
+	private int roleId;
+	private String name;
+	
+	@OneToMany(mappedBy = "role", cascade=CascadeType.ALL, fetch=FetchType)
+	private Set<UserRole> userRoles = new HashSet<>();
+}

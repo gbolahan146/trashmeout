@@ -1,0 +1,20 @@
+package com.bookstore.controller;
+
+import java.security.Principal;
+
+import com.bookstore.service.UserService;
+
+@Controller
+@RequestMapping("/shoppingCart")
+public class ShoppingCartController {
+	@Autowired
+	private UserService userService;
+	
+	@RequestMapping("/cart")
+	public String shoppingCart(Model model, Principal principal) {
+		User user = userService.findByUsername(principal.getName());
+		ShoppingCart shoppingCart = user.getShoppingCart();
+	}
+
+	
+}

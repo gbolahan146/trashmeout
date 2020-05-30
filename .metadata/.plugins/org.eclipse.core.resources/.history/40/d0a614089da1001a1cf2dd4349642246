@@ -1,0 +1,9 @@
+package com.bookstore.domain;
+
+@Entity
+public class CartItem {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private 
+
+}

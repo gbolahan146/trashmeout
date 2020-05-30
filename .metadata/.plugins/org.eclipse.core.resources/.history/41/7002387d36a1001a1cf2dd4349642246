@@ -1,0 +1,12 @@
+package com.bookstore.domain;
+
+import javax.persistence.Entity;
+
+@Entity
+public class UserPayment {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	
+
+}

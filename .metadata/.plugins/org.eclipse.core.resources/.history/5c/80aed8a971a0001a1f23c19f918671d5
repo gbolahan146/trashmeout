@@ -1,0 +1,6 @@
+package com.adminportal.service.impl;
+@Service
+public class BookServiceImpl implements BookService {
+
+	
+}
